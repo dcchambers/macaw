@@ -18,7 +18,7 @@ Unlike a real Macaw, you can teach this one to not use certain words if desired.
 
 Passwords like `cUbXLBagmYPqKY35` are hard to guess, but they're also impossible to remember.
 
-Meanwhile, passwords like `[correcthorsebatterystaple](https://xkcd.com/936/)`
+Meanwhile, passwords like [`correcthorsebatterystaple`](https://xkcd.com/936/)
 are just as hard for computers to guess, but they are much easier for humans to remember.
 
 Macaw seeks to generate passwords that are easy to remember so you don't have to dig into a password
@@ -41,7 +41,7 @@ http://www.skye4birds.com/ascii.htm
           /_.' , '/    /
   ________/_`-'_-' _.-'_______
   _jgs__________\\\_\\\_______
-        |_/,/ .|``` ```
+        |_/,/ .| ``  ``
         / \_/-/
         |`| ; |
         \/' \ /
@@ -94,7 +94,7 @@ $ macaw seed <number>
           /_.' , '/    /
   ________/_`-'_-' _.-'_______
   _jgs__________\\\_\\\_______
-        |_/,/ .|``` ```
+        |_/,/ .| ``  ``
         / \_/-/
         |`| ; |
         \/' \ /
