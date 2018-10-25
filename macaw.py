@@ -1,4 +1,8 @@
-print("Macaw!")
+# Macaw
+
+password = ""
 f = open('dictionary.txt')
 for word in f.read().split():
-    print(word)
+    password = password + word
+
+print(password)
