@@ -1,6 +1,6 @@
 # Macaw
 
-Better password generation.
+Better password generation with long, colorful passwords.
 
 Named after our colorful feathered friends that speak (often nonsensical) strings of words.
 
