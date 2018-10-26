@@ -1,8 +1,6 @@
 # Macaw
 
-Better password generation with long, colorful passwords inspired by our parrot friends.
-
-Named after our colorful, feathered friends that speak (often nonsensical) strings of words.
+Better password generation inspired by our colorful, feathered friends that speak (often nonsensical) strings of words.
 
 ## About
 
@@ -100,6 +98,7 @@ http://www.skye4birds.com/ascii.htm
 
 `$ macaw speak camel`
 - Generate a password in CamelCase.
+
 `$ macaw speak sub (o,0)`
 - Generate a password and replace all `o` characters with `0` characters.
 
