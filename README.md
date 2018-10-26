@@ -106,6 +106,7 @@ eg. `$ macaw speak smart camel bang sub (i,1)` --> "1ntell1gentBookcaseWaltzesAc
 
 ```
 $ macaw speak smart camel bang sub (i,1)
+
                    ,,,___
                  ,'   _  \__           ___________________________________________
                 /    { O /  `\        /                                           \
