@@ -2,6 +2,25 @@
 
 Better password generation inspired by our colorful, feathered friends that speak (often nonsensical) strings of words.
 
+```
+                   ,,,___
+                 ,'   _  \__
+                /    { O /  `\
+               ,\     } /---./
+             /\  `-.__- `--'
+            /  `._  :   |
+           /\_;  -' :   ;
+           /  \_;  /   /
+           /| \ \_/..-'
+   ________|_\___/_\\_\\________
+   ----------------;;-;;--------
+           \/ `-'/
+           |\_|_/|
+            \/ \/
+             \_/
+
+```
+
 ## About
 
 - Macaw is a simple command-line tool to generate unique and easy-to-remember passwords.
@@ -26,28 +45,6 @@ manager every time you want to log into an app.
 
 ## Planned
 
-Placeholder Parrot ASCII borrowed from:
-http://blog.kiwitan.com/2010/11/ascii-art-parrots.html
-http://www.skye4birds.com/ascii.htm
-```
--=[ parrot ]=-  9/97
-                      .---.
-                    .'  .-.'._
-                  _/   (  0 / ',
-               .-' \   (   /--./
-             .'.  ' |'.__.'--'
-            / '-/_, |'  |
-           / /_.   ;    ;
-          /_.' , '/    /
-  ________/_`-'_-' _.-'_______
-  _jgs__________\\\_\\\_______
-        |_/,/ .| ``  ``
-        / \_/-/
-        |`| ; |
-        \/' \ /
-         |'.|`
-          \_/
-```
 `$ macaw generate`
 - Generate a new random password based on pre-defined configuration.
 
@@ -109,22 +106,19 @@ eg. `$ macaw speak smart camel bang sub (i,1)` --> "1ntell1gentBookcaseWaltzesAc
 
 ```
 $ macaw speak smart camel bang sub (i,1)
-
-                      .---.
-                    .'  .-.'._           ___________________________________________
-                  _/   (  0 / ',        /                                           \
-               .-' \   (   /--./     .-'   1ntell1gentBookcaseWaltzesAcc1dentally!   |
-             .'.  ' |'.__.'--'       `-.                                             |
-            / '-/_, |'  |               \___________________________________________/
-           / /_.   ;    ;
-          /_.' , '/    /
-  ________/_`-'_-' _.-'_______
-  _jgs__________\\\_\\\_______
-        |_/,/ .| ``  ``
-        / \_/-/
-        |`| ; |
-        \/' \ /
-         |'.|`
-          \_/
-
+                   ,,,___
+                 ,'   _  \__           ___________________________________________
+                /    { O /  `\        /                                           \
+               ,\     } /---./     .-'   1ntell1gentBookcaseWaltzesAcc1dentally!   |
+             /\  `-.__- `--'       `-.                                             |
+            /  `._  :   |             \___________________________________________/
+           /\_;  -' :   ;
+           /  \_;  /   /
+           /| \ \_/..-'
+   ________|_\___/_\\_\\________
+   ----------------;;-;;--------
+           \/ `-'/
+           |\_|_/|
+            \/ \/
+             \_/
 ```
