@@ -41,5 +41,3 @@ def generatePassword(wordList):
         word = wordList[random.randint(0,999)] # grab a random word from the dictionary file.
         tempPass = tempPass + word #concat that word to the end of the password.
     return tempPass
-
-main()
