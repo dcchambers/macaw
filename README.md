@@ -20,6 +20,9 @@ Better password generation inspired by our colorful, feathered friends that spea
              \_/
 
 ```
+## Install
+
+- `pip install macawspeak`
 
 ## About
 
