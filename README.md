@@ -126,4 +126,12 @@ $ macaw speak smart camel bang sub (i,1)
 
 ## Build
 
-- TODO: PyPi Packaging Instructions
+- To build this package, you'll need `setuptools` and `wheel`.
+  - `$ python3 -m pip install --user --upgrade setuptools wheel`
+  - `$ python3 -m pip install --user --upgrade twine`
+- Run this command from the directory where `setup.py` is located:
+  - `$ python3 setup.py sdist bdist_wheel`
+  - That should create some files in the `dist/` directory.
+- You can now install this wheel package using pip if you desire.
+  - `$ pip install dist/file_name.whl`
+- If you wanted to upload the package to PyPi, you would need to use `twine`.
