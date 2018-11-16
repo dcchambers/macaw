@@ -5,13 +5,15 @@
 # Testing file open and string concatenation.
 
 import random
+import pkgutil
 
 def main():
 
     # This dictionary of words is for testing only and should *not* be considered secure.
     # Courtesy of https://gist.github.com/deekayen/4148741
-    f = open('dictionary.txt')
-    wordList = f.read().split()
+    #f = open('dictionary.txt')
+    f = pkgutil.get_data("macaw","dictionary.txt").decode("utf8")
+    wordList = f.split()
 
     password = generatePassword(wordList)
     speakPassword(password)
