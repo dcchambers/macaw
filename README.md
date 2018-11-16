@@ -40,7 +40,7 @@ manager every time you want to log into an app.
 
 ## Usage
 
-`$ macaw generate`
+`$ macaw`
 - Generate and print a new password.
 
 ## Planned
