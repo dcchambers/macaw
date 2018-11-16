@@ -6,13 +6,14 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="macawspeak",
 #    packages=["macaw"],
-    version="0.1.0",
+    version="0.1.1",
     author="Dakota Chambers",
     author_email="dakotachambers@gmail.com",
     description="Better password generation inspired by our colorful, feathered friends.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dcchambers/macaw",
+    include_package_data=True,
     packages=setuptools.find_packages(),
     keywords = [
 		"password",
