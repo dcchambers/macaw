@@ -124,6 +124,10 @@ $ macaw speak smart camel bang sub (i,1)
              \_/
 ```
 
+- You can also pipe the output to other programs:
+
+![](images/macaw-lolcat.png)
+
 ## Build
 
 - To build this package, you'll need `setuptools` and `wheel`.
