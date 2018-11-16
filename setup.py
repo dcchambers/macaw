@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="macawspeak",
 #    packages=["macaw"],
-    version="0.0.1",
+    version="0.1.0",
     author="Dakota Chambers",
     author_email="dakotachambers@gmail.com",
     description="Better password generation inspired by our colorful, feathered friends.",
