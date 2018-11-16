@@ -7,7 +7,7 @@
 import random
 
 def main():
-    
+
     # This dictionary of words is for testing only and should *not* be considered secure.
     # Courtesy of https://gist.github.com/deekayen/4148741
     f = open('dictionary.txt')
@@ -15,8 +15,6 @@ def main():
 
     password = generatePassword(wordList)
     speakPassword(password)
-
-    #print("Macaw!") #DEBUG
 
 
 def speakPassword(str):
