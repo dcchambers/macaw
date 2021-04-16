@@ -142,3 +142,7 @@ $ macaw speak smart camel bang sub (i,1)
 - You can now install this wheel package using pip if you desire.
   - `$ pip install dist/file_name.whl`
 - If you wanted to upload the package to PyPi, you would need to use `twine`.
+
+## Other
+
+Macaw ASCII art inspired by the ASCII art on [Kiwitan's Parrot Blog](http://blog.kiwitan.com/2010/11/ascii-art-parrots.html)
